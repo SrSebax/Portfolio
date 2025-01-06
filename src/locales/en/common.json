@@ -33,7 +33,7 @@
       "jobs_description": [
         {
           "title": "Software Developer - React and Flutter",
-          "time": ["Jan 2024 - Present"],
+          "time": ["Jan 2024"],
           "description": "I develop web and mobile applications using React and Flutter, ensuring an attractive interface and smooth user experience. I work on the design and optimization of applications, from the frontend to integration with backend services.",
           "list": [
             "Frontend development in React and Flutter",
@@ -44,7 +44,7 @@
         },
         {
           "title": "Frontend Web Developer",
-          "time": ["Apr 2023 - Dec 2023"],
+          "time": ["Apr 2023", "Dec 2023"],
           "description": "I created web applications and optimized performance. I developed modern interfaces with React and ensured correct interaction with the backend, applying best design practices and optimization for fast loading of sites.",
           "list": [
             "Web app development and maintenance with React",
@@ -55,7 +55,7 @@
         },
         {
           "title": "Freelance",
-          "time": ["2022 - 2023"],
+          "time": ["2022"],
           "description": "Freelance work on web projects, where I offer my skills in frontend development, interface design, and website optimization to provide the best user experience.",
           "list": ["Web Development", "Interface Design", "SEO Optimization", "Consulting on best development practices and user experience optimization"]
         }
@@ -66,25 +66,17 @@
     "title": "Projects",
     "projects": [
       {
-        "title": "Go Shoppe",
-        "description": "Go Shoppe is a sales system designed to facilitate inventory, customer, and sales management. With its simple and accessible interface, it allows users to create invoices, generate reports, and maintain control over their business efficiently.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "View code",
-        "preview": "View preview"
-      },
-      {
         "title": "WellHound",
         "description": "WellHound is an innovative mobile app for identifying and reporting orphaned oil and gas wells. The app allows users to easily report abandoned wells, receive real-time updates, and track their reports' progress. With a focus on ease of use, WellHound facilitates active community participation to improve safety and monitoring of these wells.",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+        "image": "/src/images/projects/wellhound.jpeg",
         "techs": ["Astro", "TailwindCSS", "React", "TypeScript", "PWA", "Firebase"],
         "code": "View code",
         "preview": "View preview"
       },
       {
-        "title": "Sniffle VideoCall",
-        "description": "Sniffle is a video call app that uses AgoraIO to provide clear and high-quality communication. Ideal for meetings or personal interactions via video, with a simple and fast interface.",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+        "title": "VideoCall with AgoraIO",
+        "description": "Video call app that uses AgoraIO to provide clear and high-quality communication. Ideal for meetings or personal interactions via video, with a simple and fast interface.",
+        "image": "/src/images/projects/videocall-agora.jpeg",
         "techs": ["Astro", "TailwindCSS", "React", "TypeScript", "PWA", "Firebase"],
         "code": "View code",
         "preview": "View preview"
@@ -92,7 +84,7 @@
       {
         "title": "Storage Manager App",
         "description": "Storage Manager is an advanced file storage management app that uses Azure AI services to facilitate the handling and organization of large data volumes. Users can upload, store, and manage files securely and efficiently, with access from any device. Azure cloud integration ensures scalable and secure performance.",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+        "image": "/src/images/projects/storage-manager.jpeg",
         "techs": ["Astro", "TailwindCSS", "React", "TypeScript", "PWA", "Firebase"],
         "code": "View code",
         "preview": "View preview"
@@ -100,8 +92,16 @@
       {
         "title": "Weather App",
         "description": "Weather App is a tool that provides real-time weather forecasts. With a clean interface, users can check the current weather and future forecasts to stay prepared for any weather changes.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
+        "image": "/src/images/projects/weather-app.jpeg",
         "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
+        "code": "View code",
+        "preview": "View preview"
+      },
+      {
+        "title": "Go Shoppe",
+        "description": "Go Shoppe is a sales system designed to facilitate inventory, customer, and sales management. With its simple and accessible interface, it allows users to create invoices, generate reports, and maintain control over their business efficiently.",
+        "image": "/src/images/projects/go-shoppe.jpeg",
+        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
         "code": "View code",
         "preview": "View preview"
       }
