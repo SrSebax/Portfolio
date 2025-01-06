@@ -69,7 +69,7 @@
       "title": "WellHound",
       "description": "WellHound es una innovadora aplicación móvil destinada a la identificación y reporte de pozos de petróleo y gas huérfanos. La aplicación permite a los usuarios informar de manera sencilla sobre pozos abandonados, recibir actualizaciones en tiempo real y seguir el progreso de sus reportes. Con un diseño enfocado en la facilidad de uso, WellHound facilita la participación activa de la comunidad para mejorar la seguridad y el monitoreo de estos pozos.",
       "image": "/src/images/projects/wellhound.jpeg",
-      "techs": ["Astro", "TailwindCSS", "React", "TypeScript", "PWA", "Firebase"],
+      "techs": ["Flutter"],
       "code": "Ver código",
       "preview": "Ver vista previa"
     },

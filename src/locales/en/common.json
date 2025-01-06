@@ -69,7 +69,7 @@
         "title": "WellHound",
         "description": "WellHound is an innovative mobile app for identifying and reporting orphaned oil and gas wells. The app allows users to easily report abandoned wells, receive real-time updates, and track their reports' progress. With a focus on ease of use, WellHound facilitates active community participation to improve safety and monitoring of these wells.",
         "image": "/src/images/projects/wellhound.jpeg",
-        "techs": ["Astro", "TailwindCSS", "React", "TypeScript", "PWA", "Firebase"],
+        "techs": ["Flutter"],
         "code": "View code",
         "preview": "View preview"
       },
