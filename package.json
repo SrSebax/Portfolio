@@ -1,6 +1,6 @@
 {
-  "name": "galactic-giant",
-  "description": "Unicorn Sparkle es la plantilla de portafolio definitiva para desarrolladores que quieren brillar.",
+  "name": "portfolio",
+  "description": "Portfolio built with Astro.",
   "keywords": [
     "portfolio",
     "astro",
@@ -8,15 +8,12 @@
     "astrojs",
     "astro-template"
   ],
-  "bugs": {
-    "url": "https://github.com/UXCorpRangel/portfolios-dev/issues"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/UXCorpRangel/portfolios-dev.git"
+    "url": "https://github.com/SrSebax/Portfolio.git"
   },
   "license": "MIT",
-  "author": "UXCorpRangel - Felix Icaza <fx.joliett17@gmail.com>",
+  "author": "Sebas Lon",
   "type": "module",
   "scripts": {
     "astro": "astro",
