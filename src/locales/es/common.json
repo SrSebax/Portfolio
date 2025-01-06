@@ -1,6 +1,6 @@
 {
-  "title": "Desarrollador Web Frontend - Felix Rangel",
-  "description": "Desarrollador Web Frontend de Estelí, Nicaragua. Especialista en HTML5, CSS5, JavaScript ES6+, Node.js y WordPress.",
+  "title": "Desarrollador Web Frontend - Sebastian Londoño",
+  "description": "Desarrollador Web Frontend de Medellín, Colombia. Especialista en HTML5, CSS3, JavaScript ES6+, React, Node.js, Flutter y optimización de rendimiento web.",
   "navbar": [
     {
       "label": "Inicio",
@@ -21,106 +21,121 @@
   ],
   "hero": {
     "job_availability": "¡Disponible para trabajar!",
-    "title": "¡Hola soy Felix Rangel!",
-    "job_title": "<strong>Desarrollador Web Frontend</strong> de Estelí, Nicaragua.",
-    "description": "Especialista en HTML5, CSS5, JavaScript ES6+, Node.js y WordPress.",
-    "cta": "Contactame"
+    "title": "¡Hola, soy Sebastian Londoño!",
+    "job_title": "<strong>Desarrollador Web Frontend</strong> de Medellín, Colombia.",
+    "description": "Especialista en HTML5, CSS3, JavaScript ES6+, React, Node.js, Flutter y optimización de rendimiento web.",
+    "cta": "Contáctame"
   },
   "experience": {
     "title": "Experiencia laboral",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": ["NeoBit SAS", "PrevalentWare", "Freelance"],
       "jobs_description": [
         {
-          "title": "Desarrollador Web Frontend",
-          "time": ["Dic 2021"],
-          "description": "Creo sitios web con diseños modernos y aplicando buenas prácticas de UI/UX. También me encargo de rediseñar, optimizar el posicionamiento SEO, aumentar las medidas de seguridad y optimizar el rendimiento de velocidad de sitios web, para aumentar la taza de conversión y las visitas.",
-          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+          "title": "Desarrollador de Software - React y Flutter",
+          "time": ["Ene 2024 - Actualidad"],
+          "description": "Desarrollo aplicaciones web y móviles utilizando React y Flutter, asegurando una interfaz atractiva y una experiencia de usuario fluida. Trabajo en el diseño y la optimización de aplicaciones, desde el frontend hasta la integración con servicios backend.",
+          "list": [
+          "Desarrollo frontend en React y Flutter",
+          "Implementación de APIs RESTful y GraphQL",
+          "Optimización de rendimiento y tiempos de carga",
+          "Diseño y desarrollo de interfaces responsivas y accesibles"
+        ]
         },
         {
-          "title": "Desarrollador Web en WordPress",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "Me encargué de desarrollar sitios web en WordPress para clientes de Nicaragua, durante mi tiempo en la agencia aporté mi conocimiento en seguridad web aumentando las medidas y disminuyendo las brechas de seguridad en WordPress, configurando plugins y estableciendo cabeceras HTTP como Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+          "title": "Desarrollador Web - Frontend",
+          "time": ["Abr 2023 - Dic 2023"],
+          "description": "Creación de aplicaciones web y optimización del rendimiento. Me encargué de desarrollar interfaces modernas con React y asegurar la correcta interacción con el backend, aplicando buenas prácticas de diseño y optimización para una carga rápida de los sitios.",
+         "list": [
+          "Desarrollo y mantenimiento de aplicaciones web con React",
+          "Optimización de la velocidad y accesibilidad web",
+          "Mejora de la experiencia de usuario (UX) y la interfaz de usuario (UI)",
+          "Colaboración con equipos de diseño y backend"
+        ]
+        },
+        {
+          "title": "Freelance",
+          "time": ["2022 - 2023"],
+          "description": "Trabajo independiente en proyectos web, donde ofrezco mis habilidades en desarrollo frontend, diseño de interfaces y optimización de sitios web para lograr la mejor experiencia de usuario.",
+          "list": ["Desarrollo Web", "Diseño de Interfaces", "Optimización SEO",  "Asesoría en buenas prácticas de desarrollo y optimización de la experiencia de usuario"]
         }
       ]
     }
   },
   "projects": {
-    "title": "Proyectos",
-    "projects": [
-      {
-        "title": "Estelí Buses",
-        "description": "La primer plataforma para conocer los horarios de las terminales de autobuses interlocales del municipio de Estelí, Nicaragua.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "Código",
-        "preview": "Vista previa"
-      },
-      {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
-        "code": "Código",
-        "preview": "Vista previa"
-      },
-      {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
-        ],
-        "code": "Código",
-        "preview": "Vista previa"
-      }
+  "title": "Proyectos",
+  "projects": [
+    {
+      "title": "Go Shoppe",
+      "description": "Go Shoppe es un sistema de ventas diseñado para facilitar la gestión de inventarios, clientes y ventas. Con su interfaz simple y accesible, permite a los usuarios crear facturas, generar reportes y mantener el control de su negocio de forma eficiente.",
+      "image": "/src/images/projects/esteli-buses-project.jpg",
+      "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
+      "code": "Ver código",
+      "preview": "Ver vista previa"
+    },
+    {
+      "title": "WellHound",
+      "description": "WellHound es una innovadora aplicación móvil destinada a la identificación y reporte de pozos de petróleo y gas huérfanos. La aplicación permite a los usuarios informar de manera sencilla sobre pozos abandonados, recibir actualizaciones en tiempo real y seguir el progreso de sus reportes. Con un diseño enfocado en la facilidad de uso, WellHound facilita la participación activa de la comunidad para mejorar la seguridad y el monitoreo de estos pozos.",
+      "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+      "techs": ["Astro", "TailwindCSS", "React", "TypeScript", "PWA", "Firebase"],
+      "code": "Ver código",
+      "preview": "Ver vista previa"
+    },
+    {
+      "title": "Sniffle VideoCall",
+      "description": "Sniffle es una app de videollamadas que utiliza AgoraIO para ofrecer una experiencia de comunicación clara y de alta calidad. Ideal para reuniones o interacciones personales a través de video, con una interfaz sencilla y rápida.",
+      "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+      "techs": ["Astro", "TailwindCSS", "React", "TypeScript", "PWA", "Firebase"],
+      "code": "Ver código",
+      "preview": "Ver vista previa"
+    },
+    {
+      "title": "Storage Manager App",
+      "description": "Storage Manager es una aplicación avanzada de gestión de almacenamiento de archivos, que utiliza los servicios de Azure IA para facilitar el manejo y organización de grandes volúmenes de datos. Los usuarios pueden cargar, almacenar y gestionar archivos de manera segura y eficiente, con la capacidad de acceder a ellos desde cualquier dispositivo. La integración con la nube de Azure garantiza un rendimiento escalable y seguro.",
+      "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+      "techs": ["Astro", "TailwindCSS", "React", "TypeScript", "PWA", "Firebase"],
+      "code": "Ver código",
+      "preview": "Ver vista previa"
+    },
+    {
+      "title": "Weather App",
+      "description": "Weather App es una herramienta que ofrece pronósticos del clima en tiempo real. Con una interfaz limpia, los usuarios pueden consultar el clima actual y las previsiones futuras para estar siempre preparados ante cualquier cambio meteorológico.",
+      "image": "/src/images/projects/ana-rangel-portafolio.jpg",
+      "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
+      "code": "Ver código",
+      "preview": "Ver vista previa"
+    }
     ]
   },
   "contributions": {
-    "title": "Contribuciones",
-    "contributions": [
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repositorio",
-        "commits": "#"
-      },
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repositorio",
-        "commits": "#"
-      },
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repositorio",
-        "commits": "#"
-      }
+  "title": "Diseño UI/UX",
+  "contributions": [
+    {
+      "src": "/src/images/contributions/advanced-periodontics.jpg",
+      "alt": "Epic Games",
+      "title": "Epic Games",
+      "description": "Replica de la interfaz de Epic Games, diseñada para ofrecer una experiencia de usuario similar a la plataforma original. Este proyecto destaca por su diseño visual y funcionalidad, utilizando tecnologías web modernas.",
+      "techs": ["HTML", "CSS", "JavaScript"],
+      "repo": "https://github.com/SrSebax/clone-EpicGames",
+      "repo_label": "Ver repositorio",
+      "commits": "#"
+    },
+    {
+      "src": "/src/images/contributions/advanced-periodontics.jpg",
+      "alt": "Remember Me",
+      "title": "Remember Me",
+      "description": "Remember Me es una plataforma digital que permite almacenar y revivir recuerdos especiales. Su diseño intuitivo permite a los usuarios organizar fotos, videos y notas, manteniendo la nostalgia al alcance de un clic.",
+      "techs": ["HTML", "CSS", "JavaScript"],
+      "repo": "https://github.com/SrSebax/clone-EpicGames",
+      "repo_label": "Ver repositorio",
+      "commits": "#"
+    }
     ]
   },
   "about": {
     "title": "Sobre mí",
-    "subtitle": "Soy mod de Midudev y ManzDev pero más feliz me siento siendo mod de AnaRangel",
-    "description": "Soy un Desarrollador Web Frontend y WordPress con más de 3 años de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, con un enfoque en tecnologías como HTML 5, CSS 3, JavaScript ES6+ y WordPress. Manejo frameworks como React y Astro, y soy experto en constructores visuales de WordPress, además de tener un fuerte conocimiento técnico en Core Web Vitals, lo que me convierte en un profesional apasionado y altamente cualificado para cualquier proyecto de desarrollo web."
+    "subtitle": "Transformando ideas en experiencias digitales rápidas y atractivas.",
+    "description": "Soy un Desarrollador Web Frontend con más de 1 año de experiencia, especializado en React, Flutter y optimización web. Mi enfoque está en crear interfaces modernas, optimizar el rendimiento y asegurar una experiencia de usuario fluida. Mi pasión por la velocidad y la eficiencia me lleva a estar siempre en busca de nuevas formas de mejorar la experiencia web."
   },
   "contact": {
     "title": "¿Listo para dar vida a tus ideas?",

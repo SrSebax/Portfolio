@@ -1,6 +1,6 @@
 {
-  "title": "Web Frontend Developer - Felix Rangel",
-  "description": "Web Frontend Developer from Esteli, Nicaragua. Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+  "title": "Frontend Web Developer - Sebastian Londoño",
+  "description": "Frontend Web Developer from Medellín, Colombia. Specialist in HTML5, CSS3, JavaScript ES6+, React, Node.js, Flutter, and web performance optimization.",
   "navbar": [
     {
       "label": "Home",
@@ -8,40 +8,56 @@
     },
     {
       "label": "Experience",
-      "href": "/en/#work-experience"
+      "href": "#experiencia-laboral"
     },
     {
       "label": "Projects",
-      "href": "/en/#projects"
+      "href": "#proyectos"
     },
     {
       "label": "About me",
-      "href": "/en/#about-me"
+      "href": "#sobre-mi"
     }
   ],
   "hero": {
     "job_availability": "Available for work!",
-    "title": "Hello I'm Felix Rangel!",
-    "job_title": "<strong>Web Frontend Developer</strong> from Esteli, Nicaragua.",
-    "description": "Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+    "title": "Hello, I'm Sebastian Londoño!",
+    "job_title": "<strong>Frontend Web Developer</strong> from Medellín, Colombia.",
+    "description": "Specialist in HTML5, CSS3, JavaScript ES6+, React, Node.js, Flutter, and web performance optimization.",
     "cta": "Contact me"
   },
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": ["NeoBit SAS", "PrevalentWare", "Freelance"],
       "jobs_description": [
         {
-          "title": "Web Frontend Developer",
-          "time": ["Dec 2021"],
-          "description": "I create modern websites with good UI/UX practices. I also manage SEO, security and performance optimizations to increase conversion and visits.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "Software Developer - React and Flutter",
+          "time": ["Jan 2024 - Present"],
+          "description": "I develop web and mobile applications using React and Flutter, ensuring an attractive interface and smooth user experience. I work on the design and optimization of applications, from the frontend to integration with backend services.",
+          "list": [
+            "Frontend development in React and Flutter",
+            "Implementation of RESTful APIs and GraphQL",
+            "Performance optimization and load times",
+            "Design and development of responsive and accessible interfaces"
+          ]
         },
         {
-          "title": "WordPress Web Developer",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "I was in charge of developing WordPress websites for clients in Nicaragua, during my time at the agency I contributed my knowledge in web security by increasing measures and decreasing security gaps in WordPress, configuring plugins and setting HTTP headers such as Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "Frontend Web Developer",
+          "time": ["Apr 2023 - Dec 2023"],
+          "description": "I created web applications and optimized performance. I developed modern interfaces with React and ensured correct interaction with the backend, applying best design practices and optimization for fast loading of sites.",
+          "list": [
+            "Web app development and maintenance with React",
+            "Optimization of web speed and accessibility",
+            "Improvement of user experience (UX) and user interface (UI)",
+            "Collaboration with design and backend teams"
+          ]
+        },
+        {
+          "title": "Freelance",
+          "time": ["2022 - 2023"],
+          "description": "Freelance work on web projects, where I offer my skills in frontend development, interface design, and website optimization to provide the best user experience.",
+          "list": ["Web Development", "Interface Design", "SEO Optimization", "Consulting on best development practices and user experience optimization"]
         }
       ]
     }
@@ -50,81 +66,80 @@
     "title": "Projects",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "The first platform to know the bus schedules of interlocal buses in the Estelí municipality, Nicaragua.",
+        "title": "Go Shoppe",
+        "description": "Go Shoppe is a sales system designed to facilitate inventory, customer, and sales management. With its simple and accessible interface, it allows users to create invoices, generate reports, and maintain control over their business efficiently.",
         "image": "/src/images/projects/esteli-buses-project.jpg",
         "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "Code",
-        "preview": "Preview"
+        "code": "View code",
+        "preview": "View preview"
       },
       {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
+        "title": "WellHound",
+        "description": "WellHound is an innovative mobile app for identifying and reporting orphaned oil and gas wells. The app allows users to easily report abandoned wells, receive real-time updates, and track their reports' progress. With a focus on ease of use, WellHound facilitates active community participation to improve safety and monitoring of these wells.",
+        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+        "techs": ["Astro", "TailwindCSS", "React", "TypeScript", "PWA", "Firebase"],
+        "code": "View code",
+        "preview": "View preview"
+      },
+      {
+        "title": "Sniffle VideoCall",
+        "description": "Sniffle is a video call app that uses AgoraIO to provide clear and high-quality communication. Ideal for meetings or personal interactions via video, with a simple and fast interface.",
+        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+        "techs": ["Astro", "TailwindCSS", "React", "TypeScript", "PWA", "Firebase"],
+        "code": "View code",
+        "preview": "View preview"
+      },
+      {
+        "title": "Storage Manager App",
+        "description": "Storage Manager is an advanced file storage management app that uses Azure AI services to facilitate the handling and organization of large data volumes. Users can upload, store, and manage files securely and efficiently, with access from any device. Azure cloud integration ensures scalable and secure performance.",
+        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+        "techs": ["Astro", "TailwindCSS", "React", "TypeScript", "PWA", "Firebase"],
+        "code": "View code",
+        "preview": "View preview"
+      },
+      {
+        "title": "Weather App",
+        "description": "Weather App is a tool that provides real-time weather forecasts. With a clean interface, users can check the current weather and future forecasts to stay prepared for any weather changes.",
         "image": "/src/images/projects/ana-rangel-portafolio.jpg",
         "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
-        "code": "Code",
-        "preview": "Preview"
-      },
-      {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Calculadora Payoneer Nicaragua allows you to calculate precisely and quickly the rates and commissions when receiving international payments through Payoneer. Start using it today and take control of your finances!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
-        ],
-        "code": "Code",
-        "preview": "Preview"
+        "code": "View code",
+        "preview": "View preview"
       }
     ]
   },
   "contributions": {
-    "title": "Contributions",
+    "title": "UI/UX Design",
     "contributions": [
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
+        "alt": "Epic Games",
+        "title": "Epic Games",
+        "description": "Replica of the Epic Games interface, designed to offer a user experience similar to the original platform. This project stands out for its visual design and functionality, using modern web technologies.",
+        "techs": ["HTML", "CSS", "JavaScript"],
+        "repo": "https://github.com/SrSebax/clone-EpicGames",
+        "repo_label": "View repository",
         "commits": "#"
       },
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
-      },
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
+        "alt": "Remember Me",
+        "title": "Remember Me",
+        "description": "Remember Me is a digital platform that allows you to store and relive special memories. Its intuitive design enables users to organize photos, videos, and notes, keeping nostalgia just a click away.",
+        "techs": ["HTML", "CSS", "JavaScript"],
+        "repo": "https://github.com/SrSebax/clone-EpicGames",
+        "repo_label": "View repository",
         "commits": "#"
       }
     ]
   },
   "about": {
     "title": "About me",
-    "subtitle": "I'm a Midudev and ManzDev mod but I'm happier being an AnaRangel mod",
-    "description": "I am a Frontend Web Developer and WordPress Developer with over 3 years of experience, specialized in creating modern designs and optimizing web performance, with a focus on technologies such as HTML 5, CSS 3, JavaScript ES6+ and WordPress. I handle frameworks such as React and Astro, and I am an expert in WordPress visual builders, in addition to having a strong technical knowledge in Core Web Vitals, which makes me a passionate and highly qualified professional for any web development project."
+    "subtitle": "Transforming ideas into fast and attractive digital experiences.",
+    "description": "I am a Frontend Web Developer with over 1 year of experience, specializing in React, Flutter, and web optimization. My focus is on creating modern interfaces, optimizing performance, and ensuring a smooth user experience. My passion for speed and efficiency drives me to constantly seek new ways to improve the web experience."
   },
   "contact": {
-    "title": "Ready to make your dreams come true?",
-    "subtitle": "I can boost your project or be part of your team"
+    "title": "Ready to bring your ideas to life?",
+    "subtitle": "I can drive your project or be part of your team"
   },
   "footer": {
     "designed": {
@@ -137,3 +152,4 @@
     }
   }
 }
+
