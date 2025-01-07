@@ -69,7 +69,7 @@
         "title": "WellHound",
         "description": "WellHound is an innovative mobile app for identifying and reporting orphaned oil and gas wells. The app allows users to easily report abandoned wells, receive real-time updates, and track their reports' progress. With a focus on ease of use, WellHound facilitates active community participation to improve safety and monitoring of these wells.",
         "image": "/src/images/projects/wellhound.jpeg",
-        "techs": ["Flutter"],
+        "techs": ["Flutter", "Dart", "Material UI"],
         "code": "View code",
         "preview": "View preview"
       },
@@ -77,7 +77,7 @@
         "title": "VideoCall with AgoraIO",
         "description": "Video call app that uses AgoraIO to provide clear and high-quality communication. Ideal for meetings or personal interactions via video, with a simple and fast interface.",
         "image": "/src/images/projects/videocall-agora.jpeg",
-        "techs": ["Astro", "TailwindCSS", "React", "TypeScript", "PWA", "Firebase"],
+        "techs": ["Android Studio", "React", "Java", "Material UI","TailwindCSS" ],
         "code": "View code",
         "preview": "View preview"
       },
@@ -85,7 +85,7 @@
         "title": "Storage Manager App",
         "description": "Storage Manager is an advanced file storage management app that uses Azure AI services to facilitate the handling and organization of large data volumes. Users can upload, store, and manage files securely and efficiently, with access from any device. Azure cloud integration ensures scalable and secure performance.",
         "image": "/src/images/projects/storage-manager.jpeg",
-        "techs": ["Astro", "TailwindCSS", "React", "TypeScript", "PWA", "Firebase"],
+        "techs": ["React", "JavaScript", "Material UI"],
         "code": "View code",
         "preview": "View preview"
       },
@@ -93,7 +93,7 @@
         "title": "Weather App",
         "description": "Weather App is a tool that provides real-time weather forecasts. With a clean interface, users can check the current weather and future forecasts to stay prepared for any weather changes.",
         "image": "/src/images/projects/weather-app.jpeg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
+        "techs": ["NextJS", "JavaScript", "TailwindCSS"],
         "code": "View code",
         "preview": "View preview"
       },
@@ -101,7 +101,7 @@
         "title": "Go Shoppe",
         "description": "Go Shoppe is a sales system designed to facilitate inventory, customer, and sales management. With its simple and accessible interface, it allows users to create invoices, generate reports, and maintain control over their business efficiently.",
         "image": "/src/images/projects/go-shoppe.jpeg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
+        "techs": ["Typescript", "HTML", "CSS"],
         "code": "View code",
         "preview": "View preview"
       }
@@ -115,7 +115,7 @@
         "alt": "Epic Games",
         "title": "Epic Games",
         "description": "Replica of the Epic Games interface, designed to offer a user experience similar to the original platform. This project stands out for its visual design and functionality, using modern web technologies.",
-        "techs": ["HTML", "CSS", "JavaScript"],
+        "techs": ["React" , "HTML", "CSS", "JavaScript", "Material UI"],
         "repo": "https://github.com/SrSebax/clone-EpicGames",
         "repo_label": "View repository",
         "commits": "#"
@@ -125,8 +125,8 @@
         "alt": "Remember Me",
         "title": "Remember Me",
         "description": "Remember Me is a digital platform that allows you to store and relive special memories. Its intuitive design enables users to organize photos, videos, and notes, keeping nostalgia just a click away.",
-        "techs": ["HTML", "CSS", "JavaScript"],
-        "repo": "https://github.com/SrSebax/clone-EpicGames",
+        "techs": ["NextJS", "JavaScript", "CSS", "TailwindCSS"],
+        "repo": "https://github.com/SrSebax/rememberme-app",
         "repo_label": "View repository",
         "commits": "#"
       }

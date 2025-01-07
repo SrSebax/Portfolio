@@ -10,7 +10,6 @@ html {
     transition: var(--transition-bg);
   }
 
-  .tailwindcss,
   .flutter,
   .typescript,
   .react {
@@ -18,38 +17,64 @@ html {
     transition: var(--transition-bg);
   }
 
-  .sass {
-    background-color: #602957;
+  .material-ui {
+    background-color: #2c5f8a;
     transition: var(--transition-bg);
   }
 
-  .open-props {
-    background-color: #3a4367;
+  .tailwindcss {
+    background-color: #3587a4;
+    transition: var(--transition-bg);
+  }
+
+  .sass {
+    background-color: #913c67;
+    transition: var(--transition-bg);
+  }
+
+  .open-props,
+  .nextjs {
+    background-color: #454a67;
     transition: var(--transition-bg);
   }
 
   .javascript {
-    background-color: #665e24;
+    background-color: #b29037;
+    transition: var(--transition-bg);
+  }
+
+  .dart {
+    background-color: #2a7c85;
     transition: var(--transition-bg);
   }
 
   .php {
-    background-color: #616161;
+    background-color: #5b5b5b;
     transition: var(--transition-bg);
   }
 
   .wordpress {
-    background-color: #3a4367;
+    background-color: #3f4e67;
     transition: var(--transition-bg);
   }
 
   .firebase {
-    background-color: #7f6932;
+    background-color: #b38732;
+    transition: var(--transition-bg);
+  }
+
+  .java {
+    background-color: #ae4b3d;
+    transition: var(--transition-bg);
+  }
+
+  .android-studio {
+    background-color: #4b8a5e;
     transition: var(--transition-bg);
   }
 
   .pwa {
-    background-color: #c4c4c4;
+    background-color: #d2d2d2;
     color: #000;
     transition: var(--transition-bg), var(--transition-text);
   }
@@ -58,40 +83,66 @@ html {
 html.dark {
   .astro,
   .html {
-    background-color: #ffbc96;
+    background-color: #e6b9a6;
   }
 
   .css {
-    background-color: #1c80bf5e;
+    background-color: #6f93d9;
   }
 
-  .tailwindcss,
+  .flutter,
   .typescript,
   .react {
-    background-color: #bddaff;
+    background-color: #95b8d9;
+  }
+
+  .material-ui {
+    background-color: #80a8d0;
+  }
+
+  .tailwindcss {
+    background-color: #9dcdd8;
   }
 
   .sass {
-    background-color: color-mix(in srgb, #602957, #fff 70%);
+    background-color: #d184aa;
   }
 
-  .open-props {
-    background-color: #c1cbf1;
+  .open-props,
+  .nextjs {
+    background-color: #a5abc9;
   }
 
   .javascript {
-    background-color: #e2da9a;
+    background-color: #dbc57a;
+  }
+
+  .dart {
+    background-color: #7ebac0;
   }
 
   .php {
-    background-color: #cacaca;
+    background-color: #a3a3a3;
   }
 
   .wordpress {
-    background-color: #b1b8d1;
+    background-color: #8f99b4;
   }
 
   .firebase {
-    background-color: #ffdd88;
+    background-color: #e3c187;
+  }
+
+  .java {
+    background-color: #df8677;
+  }
+
+  .android-studio {
+    background-color: #86bf9b;
+  }
+
+  .pwa {
+    background-color: #646464;
+    color: #fff;
   }
 }
