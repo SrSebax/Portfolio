@@ -10,9 +10,9 @@ interface Props {
   title: string
   description: string
   techs: string[]
-  repo: string
-  repoLabel: string
-  commits: string
+  repo?: string
+  repoLabel?: string
+  commits?: string
 }
 
 const { src, alt, title, description, techs, repo, repoLabel, commits } =
@@ -59,14 +59,22 @@ if (!images[src])
     }
   </div>
   <div class="links">
-    <a href={repo}>
-      <Icon name="github" size={16} />
-      {repoLabel}
-    </a>
-    <a href={commits}>
-      <Icon name="link" size={16} />
-      Commits
-    </a>
+    {
+      repo && (
+        <a href={repo} target="_blank" rel="noopener noreferrer">
+          <Icon name="github" size={16} />
+          {repoLabel || 'Ver repositorio'}
+        </a>
+      )
+    }
+    {
+      commits && (
+        <a href={commits} target="_blank" rel="noopener noreferrer">
+          <Icon name="link" size={16} />
+          Commits
+        </a>
+      )
+    }
   </div>
 </section>
 

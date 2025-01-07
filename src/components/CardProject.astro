@@ -10,8 +10,8 @@ interface Props {
   title: string
   description: string
   techs: string[]
-  code: string
-  preview: string
+  code?: string
+  preview?: string
 }
 
 const { src, alt, title, description, techs, code, preview } = Astro.props
@@ -27,19 +27,17 @@ if (!images[src])
 
 <section class="card-project">
   <div>
-    <a href="#">
-      <Picture
-        src={images[src]()}
-        alt={alt}
-        width={434}
-        height={288}
-        formats={['avif', 'webp']}
-        fallbackFormat="webp"
-      />
-    </a>
+    <Picture
+      src={images[src]()}
+      alt={alt}
+      width={434}
+      height={288}
+      formats={['avif', 'webp']}
+      fallbackFormat="webp"
+    />
   </div>
   <div class="description">
-    <h3><a href="#">{title}</a></h3>
+    <h3>{title}</h3>
     <div class="badges">
       {
         techs.map((tech) => {
@@ -56,14 +54,22 @@ if (!images[src])
     </div>
     <p>{description}</p>
     <div class="links">
-      <a href="#">
-        <Icon name="github" size={24} />
-        {code}
-      </a>
-      <a href="#">
-        <Icon name="link" size={24} />
-        {preview}
-      </a>
+      {
+        code && (
+          <a href={code} target="_blank" rel="noopener noreferrer">
+            <Icon name="github" size={24} />
+            Ver código
+          </a>
+        )
+      }
+      {
+        preview && (
+          <a href={preview} target="_blank" rel="noopener noreferrer">
+            <Icon name="link" size={24} />
+            Ver preview
+          </a>
+        )
+      }
     </div>
   </div>
 </section>

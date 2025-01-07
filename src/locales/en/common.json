@@ -33,7 +33,7 @@
       "jobs_description": [
         {
           "title": "Software Developer - React and Flutter",
-          "time": ["Jan 2024"],
+          "time": ["January 2024"],
           "description": "I develop web and mobile applications using React and Flutter, ensuring an attractive interface and smooth user experience. I work on the design and optimization of applications, from the frontend to integration with backend services.",
           "list": [
             "Frontend development in React and Flutter",
@@ -44,7 +44,7 @@
         },
         {
           "title": "Frontend Web Developer",
-          "time": ["Apr 2023", "Dec 2023"],
+          "time": ["April 2023", "December 2023"],
           "description": "I created web applications and optimized performance. I developed modern interfaces with React and ensured correct interaction with the backend, applying best design practices and optimization for fast loading of sites.",
           "list": [
             "Web app development and maintenance with React",
@@ -118,7 +118,7 @@
         "techs": ["React" , "HTML", "CSS", "JavaScript", "Material UI"],
         "repo": "https://github.com/SrSebax/clone-EpicGames",
         "repo_label": "View repository",
-        "commits": "#"
+        "commits": ""
       },
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
@@ -128,7 +128,7 @@
         "techs": ["NextJS", "JavaScript", "CSS", "TailwindCSS"],
         "repo": "https://github.com/SrSebax/rememberme-app",
         "repo_label": "View repository",
-        "commits": "#"
+        "commits": ""
       }
     ]
   },
